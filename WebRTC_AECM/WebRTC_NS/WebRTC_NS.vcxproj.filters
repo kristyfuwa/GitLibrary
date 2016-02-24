@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="noise_suppression_x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="noise_suppression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nsx_core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nsx_defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="signal_processing_library.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ns_core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fft4g.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spl_inl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nsx_core_neon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="noise_suppression.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="noise_suppression_x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ns_core.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nsx_core.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fft4g.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestNS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="energy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="min_max_operations.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="norm_u32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="norm_w16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="norm_w32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spl_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_sat_w16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="complex_bit_reverse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="complex_fft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="complex_ifft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="division_operations.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sin_table_1024.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copy_set_operations.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_scaling_square.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_size_in_bits.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

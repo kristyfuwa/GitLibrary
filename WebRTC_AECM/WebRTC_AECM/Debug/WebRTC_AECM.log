@@ -1,0 +1,26 @@
+﻿  spl_sqrt_floor.c
+  sin_table_1024.c
+  sin_table.c
+  ring_buffer.c
+  randomization_functions.c
+  randn_table.c
+  norm_w32.c
+  norm_w16.c
+  norm_u32.c
+  min_max_operations.c
+  echo_control_mobile.c
+  division_operations.c
+  cos_table.c
+  complex_ifft.c
+  complex_fft.c
+  complex_bit_reverse.c
+  aecm_delay_estimator.c
+  aecm_core_neon.c
+  aecm_core.c
+  add_sat_w32.c
+  正在生成代码...
+  正在编译...
+  add_sat_w16.c
+  正在生成代码...
+  TestAECM.cpp
+  WebRTC_AECM.vcxproj -> E:\TestCode\WebRTC_AECM\Debug\WebRTC_AECM.exe

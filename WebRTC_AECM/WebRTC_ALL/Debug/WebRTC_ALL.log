@@ -1,0 +1,62 @@
+﻿  webrtc_vad.c
+  vad_sp.c
+  vad_gmm.c
+  vad_filterbank.c
+  vad_core.c
+  vad_const.c
+  spl_sqrt_floor.c
+  spl_sqrt.c
+  sin_table_1024.c
+  sin_table.c
+  ring_buffer.c
+  resample_by_2.c
+  resampler.c
+  randomization_functions.c
+  randn_table.c
+  ns_core.c
+e:\testcode\webrtc_aecm\webrtc_all\ns_core.c(999): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\testcode\webrtc_aecm\webrtc_all\ns_core.c(1002): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\testcode\webrtc_aecm\webrtc_all\ns_core.c(1021): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\testcode\webrtc_aecm\webrtc_all\ns_core.c(1024): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\testcode\webrtc_aecm\webrtc_all\ns_core.c(1077): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\testcode\webrtc_aecm\webrtc_all\ns_core.c(1080): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\testcode\webrtc_aecm\webrtc_all\ns_core.c(1088): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  nsx_core_neon.c
+  nsx_core.c
+  norm_w32.c
+  norm_w16.c
+  正在生成代码...
+  正在编译...
+  norm_u32.c
+  noise_suppression_x.c
+  noise_suppression.c
+  min_max_operations.c
+  get_size_in_bits.c
+  get_scaling_square.c
+  fft4g.c
+  energy.c
+  echo_control_mobile.c
+  echo_cancellation.c
+  dot_product_with_scale.c
+  division_operations.c
+  digital_agc.c
+  cos_table.c
+  copy_set_operations.c
+  complex_ifft.c
+  complex_fft.c
+  complex_bit_reverse.c
+  analog_agc.c
+  aec_rdft_sse2.c
+  正在生成代码...
+  正在编译...
+  aec_rdft.c
+  aec_core_sse2.c
+  aec_core.c
+  aecm_delay_estimator.c
+  aecm_core_neon.c
+  aecm_core.c
+  add_sat_w32.c
+  add_sat_w16.c
+  正在生成代码...
+  cpu_features.cc
+  WebRTC_ALL.vcxproj -> E:\TestCode\WebRTC_AECM\Debug\WebRTC_ALL.lib

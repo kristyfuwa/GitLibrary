@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7A22E7CE-29C0-455E-9A02-466D0A2F525C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>WebRTC_ALL</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="add_sat_w16.c" />
+    <ClCompile Include="add_sat_w32.c" />
+    <ClCompile Include="aecm_core.c" />
+    <ClCompile Include="aecm_core_neon.c" />
+    <ClCompile Include="aecm_delay_estimator.c" />
+    <ClCompile Include="aec_core.c" />
+    <ClCompile Include="aec_core_sse2.c" />
+    <ClCompile Include="aec_rdft.c" />
+    <ClCompile Include="aec_rdft_sse2.c" />
+    <ClCompile Include="analog_agc.c" />
+    <ClCompile Include="complex_bit_reverse.c" />
+    <ClCompile Include="complex_fft.c" />
+    <ClCompile Include="complex_ifft.c" />
+    <ClCompile Include="copy_set_operations.c" />
+    <ClCompile Include="cos_table.c" />
+    <ClCompile Include="cpu_features.cc" />
+    <ClCompile Include="digital_agc.c" />
+    <ClCompile Include="division_operations.c" />
+    <ClCompile Include="dot_product_with_scale.c" />
+    <ClCompile Include="echo_cancellation.c" />
+    <ClCompile Include="echo_control_mobile.c" />
+    <ClCompile Include="energy.c" />
+    <ClCompile Include="fft4g.c" />
+    <ClCompile Include="get_scaling_square.c" />
+    <ClCompile Include="get_size_in_bits.c" />
+    <ClCompile Include="min_max_operations.c" />
+    <ClCompile Include="noise_suppression.c" />
+    <ClCompile Include="noise_suppression_x.c" />
+    <ClCompile Include="norm_u32.c" />
+    <ClCompile Include="norm_w16.c" />
+    <ClCompile Include="norm_w32.c" />
+    <ClCompile Include="nsx_core.c" />
+    <ClCompile Include="nsx_core_neon.c" />
+    <ClCompile Include="ns_core.c" />
+    <ClCompile Include="randn_table.c" />
+    <ClCompile Include="randomization_functions.c" />
+    <ClCompile Include="resampler.c" />
+    <ClCompile Include="resample_by_2.c" />
+    <ClCompile Include="ring_buffer.c" />
+    <ClCompile Include="sin_table.c" />
+    <ClCompile Include="sin_table_1024.c" />
+    <ClCompile Include="spl_sqrt.c" />
+    <ClCompile Include="spl_sqrt_floor.c" />
+    <ClCompile Include="vad_const.c" />
+    <ClCompile Include="vad_core.c" />
+    <ClCompile Include="vad_filterbank.c" />
+    <ClCompile Include="vad_gmm.c" />
+    <ClCompile Include="vad_sp.c" />
+    <ClCompile Include="webrtc_vad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aecm_core.h" />
+    <ClInclude Include="aecm_delay_estimator.h" />
+    <ClInclude Include="aec_core.h" />
+    <ClInclude Include="aec_rdft.h" />
+    <ClInclude Include="analog_agc.h" />
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="digital_agc.h" />
+    <ClInclude Include="echo_cancellation.h" />
+    <ClInclude Include="echo_control_mobile.h" />
+    <ClInclude Include="fft4g.h" />
+    <ClInclude Include="gain_control.h" />
+    <ClInclude Include="noise_suppression.h" />
+    <ClInclude Include="noise_suppression_x.h" />
+    <ClInclude Include="nsx_core.h" />
+    <ClInclude Include="nsx_defines.h" />
+    <ClInclude Include="ns_core.h" />
+    <ClInclude Include="resampler.h" />
+    <ClInclude Include="ring_buffer.h" />
+    <ClInclude Include="signal_processing_library.h" />
+    <ClInclude Include="spl_inl.h" />
+    <ClInclude Include="typedefs.h" />
+    <ClInclude Include="vad_const.h" />
+    <ClInclude Include="vad_core.h" />
+    <ClInclude Include="vad_defines.h" />
+    <ClInclude Include="vad_filterbank.h" />
+    <ClInclude Include="vad_gmm.h" />
+    <ClInclude Include="vad_sp.h" />
+    <ClInclude Include="webrtc_vad.h" />
+    <ClInclude Include="windows_private.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
